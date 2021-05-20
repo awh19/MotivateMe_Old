@@ -1,0 +1,16 @@
+{
+  "name": "MotivateMe",
+  "description": "An extension dedicated to motivation and grit. Be your best",
+  "version": "1.0",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_title": "Open MotivateMe"
+  },
+  "icons": {
+    "16": "logo192.png",
+    "48": "logo192.png",
+    "128": "logo192.png"
+  },
+  "content_security_policy": "script-src 'self' 'sha256-Vf6ZFvgjaN6VPpKY+dn02nfXohKjLJ3gCUEAt59x1WA='; object-src 'self'"
+}
