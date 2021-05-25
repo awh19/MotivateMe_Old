@@ -15,7 +15,7 @@
 .navBar{
   position:absolute;
   bottom: 0;
-  background-color: darkslategray;
+  background-color: #282c34;
   width:100%;
   display:flex;
   justify-content: space-evenly;

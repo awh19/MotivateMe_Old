@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
-import { FaPhotoVideo, FaRegLightbulb } from 'react-icons/fa';
+import { FaPhotoVideo, FaRegLightbulb, FaGrinBeam, FaUserAlt} from 'react-icons/fa';
 
 import './App.css';
 
@@ -47,10 +47,9 @@ function Videos() {
       <div><button onClick={swapVideos} id="generateButton"><FaRegLightbulb color="#61dafb" size="2em"/></button></div>
 
       <div className="navBar">
-        <div><FaPhotoVideo color="#61dafb" size="2em"/></div>
-        <div><FaPhotoVideo color="#61dafb" size="2em"/></div>
-        <div><FaPhotoVideo color="#61dafb" size="2em"/></div>
-        <div><FaPhotoVideo color="#61dafb" size="2em"/></div>
+        <div><FaPhotoVideo color="#61dafb" size="1em"/></div>
+        <div><FaGrinBeam color="#214752" size="1em"/></div>
+        <div><FaUserAlt color="#214752" size="1em"/></div>
       </div>
     </div>
   );
